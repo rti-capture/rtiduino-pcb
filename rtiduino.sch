@@ -31037,13 +31037,17 @@ not connected.</text>
 <sheet>
 <description>LED Control Matrix</description>
 <plain>
-<text x="243.84" y="281.94" size="5.08" layer="97" rot="R90">Pinout for FEMALE D-Sub
+<text x="251.46" y="281.94" size="5.08" layer="97" rot="R90">Pinout for FEMALE D-Sub
 connectors on PCB</text>
-<text x="243.84" y="40.64" size="5.08" layer="97" rot="R90">Pinout for FEMALE D-Sub
+<text x="251.46" y="40.64" size="5.08" layer="97" rot="R90">Pinout for FEMALE D-Sub
 connectors on PCB</text>
 <text x="15.24" y="314.96" size="6.4516" layer="97">Bank A</text>
 <text x="20.32" y="172.72" size="6.4516" layer="97">Bank B</text>
 <text x="38.1" y="17.78" size="6.4516" layer="97">Bank C</text>
+<text x="228.6" y="337.82" size="2.54" layer="95" rot="R90">Quarter A</text>
+<text x="228.6" y="294.64" size="2.54" layer="95" rot="R90">Quarter B</text>
+<text x="228.6" y="96.52" size="2.54" layer="95" rot="R90">Quarter C</text>
+<text x="228.6" y="50.8" size="2.54" layer="95" rot="R90">Quarter D</text>
 </plain>
 <instances>
 <instance part="R4" gate="G$1" x="76.2" y="347.98"/>
@@ -31439,6 +31443,7 @@ connectors on PCB</text>
 <pinref part="X1" gate="-1" pin="F"/>
 <pinref part="U10" gate="A" pin="SW-"/>
 <label x="111.76" y="345.44" size="1.778" layer="95"/>
+<label x="203.2" y="365.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A1_30V" class="0">
@@ -31449,6 +31454,7 @@ connectors on PCB</text>
 <pinref part="X1" gate="-2" pin="F"/>
 <pinref part="U11" gate="A" pin="SW-"/>
 <label x="111.76" y="332.74" size="1.778" layer="95"/>
+<label x="203.2" y="363.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A2_30V" class="0">
@@ -31459,6 +31465,7 @@ connectors on PCB</text>
 <pinref part="X1" gate="-3" pin="F"/>
 <pinref part="U12" gate="A" pin="SW-"/>
 <label x="111.76" y="320.04" size="1.778" layer="95"/>
+<label x="203.2" y="360.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A3_30V" class="0">
@@ -31469,26 +31476,27 @@ connectors on PCB</text>
 <pinref part="X1" gate="-4" pin="F"/>
 <pinref part="U13" gate="A" pin="SW-"/>
 <label x="111.76" y="307.34" size="1.778" layer="95"/>
+<label x="203.2" y="358.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROW8" class="0">
 <segment>
-<wire x1="210.82" y1="284.48" x2="213.36" y2="284.48" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="88.9" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="284.48" x2="213.36" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="88.9" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="147.32" x2="109.22" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="142.24" x2="109.22" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="142.24" x2="109.22" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="147.32" x2="109.22" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="147.32" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="147.32" x2="210.82" y2="284.48" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="330.2" x2="210.82" y2="330.2" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="330.2" x2="210.82" y2="284.48" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="43.18" x2="213.36" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="88.9" x2="210.82" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="147.32" x2="109.22" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="147.32" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="147.32" x2="198.12" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="330.2" x2="198.12" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="330.2" x2="198.12" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="43.18" x2="213.36" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="88.9" x2="198.12" y2="43.18" width="0.1524" layer="91"/>
 <junction x="109.22" y="147.32"/>
-<junction x="210.82" y="147.32"/>
-<junction x="210.82" y="284.48"/>
-<junction x="210.82" y="88.9"/>
+<junction x="198.12" y="147.32"/>
+<junction x="198.12" y="284.48"/>
+<junction x="198.12" y="88.9"/>
 <pinref part="X5" gate="-15" pin="F"/>
 <pinref part="X6" gate="-15" pin="F"/>
 <pinref part="X1" gate="-15" pin="F"/>
@@ -31496,6 +31504,10 @@ connectors on PCB</text>
 <pinref part="U21" gate="A" pin="SW+2"/>
 <pinref part="U21" gate="A" pin="SW+1"/>
 <label x="111.76" y="147.32" size="1.778" layer="95"/>
+<label x="203.2" y="330.2" size="1.778" layer="95"/>
+<label x="203.2" y="284.48" size="1.778" layer="95"/>
+<label x="203.2" y="88.9" size="1.778" layer="95"/>
+<label x="203.2" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROW4" class="0">
@@ -31503,19 +31515,19 @@ connectors on PCB</text>
 <wire x1="106.68" y1="198.12" x2="109.22" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="193.04" x2="109.22" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="193.04" x2="109.22" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="53.34" x2="200.66" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="53.34" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="99.06" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="340.36" x2="213.36" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="294.64" x2="200.66" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="294.64" x2="200.66" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="198.12" x2="200.66" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="198.12" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="198.12" x2="109.22" y2="198.12" width="0.1524" layer="91"/>
-<junction x="200.66" y="294.64"/>
-<junction x="200.66" y="198.12"/>
+<wire x1="213.36" y1="53.34" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="53.34" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="99.06" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="340.36" x2="213.36" y2="340.36" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="294.64" x2="187.96" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="294.64" x2="187.96" y2="340.36" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="198.12" x2="187.96" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="198.12" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="198.12" x2="109.22" y2="198.12" width="0.1524" layer="91"/>
+<junction x="187.96" y="294.64"/>
+<junction x="187.96" y="198.12"/>
 <junction x="109.22" y="198.12"/>
-<junction x="200.66" y="99.06"/>
+<junction x="187.96" y="99.06"/>
 <pinref part="X6" gate="-11" pin="F"/>
 <pinref part="X7" gate="-11" pin="F"/>
 <pinref part="X1" gate="-11" pin="F"/>
@@ -31523,26 +31535,30 @@ connectors on PCB</text>
 <pinref part="U25" gate="A" pin="SW+2"/>
 <pinref part="U25" gate="A" pin="SW+1"/>
 <label x="111.76" y="198.12" size="1.778" layer="95"/>
+<label x="203.2" y="340.36" size="1.778" layer="95"/>
+<label x="203.2" y="294.64" size="1.778" layer="95"/>
+<label x="203.2" y="99.06" size="1.778" layer="95"/>
+<label x="203.2" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROW2" class="0">
 <segment>
-<wire x1="195.58" y1="104.14" x2="213.36" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="345.44" x2="213.36" y2="345.44" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="299.72" x2="195.58" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="299.72" x2="195.58" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="104.14" x2="213.36" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="345.44" x2="213.36" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="299.72" x2="182.88" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="299.72" x2="182.88" y2="345.44" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="223.52" x2="106.68" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="218.44" x2="106.68" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="218.44" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="223.52" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="223.52" x2="195.58" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="223.52" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="58.42" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="58.42" x2="195.58" y2="58.42" width="0.1524" layer="91"/>
-<junction x="195.58" y="299.72"/>
+<wire x1="182.88" y1="223.52" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="223.52" x2="182.88" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="223.52" x2="182.88" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="58.42" x2="182.88" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="58.42" x2="182.88" y2="58.42" width="0.1524" layer="91"/>
+<junction x="182.88" y="299.72"/>
 <junction x="109.22" y="223.52"/>
-<junction x="195.58" y="223.52"/>
-<junction x="195.58" y="104.14"/>
+<junction x="182.88" y="223.52"/>
+<junction x="182.88" y="104.14"/>
 <pinref part="X6" gate="-9" pin="F"/>
 <pinref part="X1" gate="-9" pin="F"/>
 <pinref part="X5" gate="-9" pin="F"/>
@@ -31550,6 +31566,10 @@ connectors on PCB</text>
 <pinref part="U27" gate="A" pin="SW+2"/>
 <pinref part="U27" gate="A" pin="SW+1"/>
 <label x="111.76" y="223.52" size="1.778" layer="95"/>
+<label x="203.2" y="345.44" size="1.778" layer="95"/>
+<label x="203.2" y="299.72" size="1.778" layer="95"/>
+<label x="203.2" y="104.14" size="1.778" layer="95"/>
+<label x="203.2" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROW1" class="0">
@@ -31557,19 +31577,19 @@ connectors on PCB</text>
 <wire x1="106.68" y1="236.22" x2="109.22" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="231.14" x2="109.22" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="231.14" x2="109.22" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="236.22" x2="109.22" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="302.26" x2="213.36" y2="302.26" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="302.26" x2="193.04" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="347.98" x2="193.04" y2="347.98" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="347.98" x2="193.04" y2="302.26" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="106.68" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="106.68" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="236.22" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="236.22" x2="109.22" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="302.26" x2="213.36" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="302.26" x2="180.34" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="347.98" x2="180.34" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="347.98" x2="180.34" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="106.68" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="106.68" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="236.22" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
 <junction x="109.22" y="236.22"/>
-<junction x="193.04" y="302.26"/>
-<junction x="193.04" y="236.22"/>
-<junction x="193.04" y="106.68"/>
+<junction x="180.34" y="302.26"/>
+<junction x="180.34" y="236.22"/>
+<junction x="180.34" y="106.68"/>
 <pinref part="X5" gate="-8" pin="F"/>
 <pinref part="X1" gate="-8" pin="F"/>
 <pinref part="X6" gate="-8" pin="F"/>
@@ -31577,6 +31597,10 @@ connectors on PCB</text>
 <pinref part="U20" gate="A" pin="SW+2"/>
 <pinref part="U20" gate="A" pin="SW+1"/>
 <label x="111.76" y="236.22" size="1.778" layer="95"/>
+<label x="203.2" y="347.98" size="1.778" layer="95"/>
+<label x="203.2" y="302.26" size="1.778" layer="95"/>
+<label x="203.2" y="106.68" size="1.778" layer="95"/>
+<label x="203.2" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A5_30V" class="0">
@@ -31587,6 +31611,7 @@ connectors on PCB</text>
 <pinref part="X5" gate="-2" pin="F"/>
 <pinref part="U15" gate="A" pin="SW-"/>
 <label x="111.76" y="281.94" size="1.778" layer="95"/>
+<label x="203.2" y="317.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A6_30V" class="0">
@@ -31597,16 +31622,18 @@ connectors on PCB</text>
 <pinref part="X5" gate="-3" pin="F"/>
 <pinref part="U16" gate="A" pin="SW-"/>
 <label x="111.76" y="269.24" size="1.778" layer="95"/>
+<label x="203.2" y="314.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A7_30V" class="0">
 <segment>
-<wire x1="106.68" y1="256.54" x2="190.5" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="256.54" x2="190.5" y2="312.42" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="312.42" x2="213.36" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="256.54" x2="177.8" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="256.54" x2="177.8" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="312.42" x2="213.36" y2="312.42" width="0.1524" layer="91"/>
 <pinref part="X5" gate="-4" pin="F"/>
 <pinref part="U17" gate="A" pin="SW-"/>
 <label x="111.76" y="256.54" size="1.778" layer="95"/>
+<label x="203.2" y="312.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -31789,6 +31816,7 @@ connectors on PCB</text>
 <pinref part="X5" gate="-1" pin="F"/>
 <pinref part="U14" gate="A" pin="SW-"/>
 <label x="111.76" y="294.64" size="1.778" layer="95"/>
+<label x="203.2" y="320.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROW3" class="0">
@@ -31796,19 +31824,19 @@ connectors on PCB</text>
 <wire x1="106.68" y1="210.82" x2="109.22" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="205.74" x2="109.22" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="205.74" x2="109.22" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="210.82" x2="109.22" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="297.18" x2="213.36" y2="297.18" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="297.18" x2="198.12" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="342.9" x2="198.12" y2="342.9" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="342.9" x2="198.12" y2="297.18" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="101.6" x2="198.12" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="55.88" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="210.82" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="210.82" x2="109.22" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="297.18" x2="213.36" y2="297.18" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="297.18" x2="185.42" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="342.9" x2="185.42" y2="342.9" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="342.9" x2="185.42" y2="297.18" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="101.6" x2="185.42" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="101.6" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="55.88" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="210.82" x2="185.42" y2="101.6" width="0.1524" layer="91"/>
 <junction x="109.22" y="210.82"/>
-<junction x="198.12" y="297.18"/>
-<junction x="198.12" y="210.82"/>
-<junction x="198.12" y="101.6"/>
+<junction x="185.42" y="297.18"/>
+<junction x="185.42" y="210.82"/>
+<junction x="185.42" y="101.6"/>
 <pinref part="X5" gate="-10" pin="F"/>
 <pinref part="X1" gate="-10" pin="F"/>
 <pinref part="X6" gate="-10" pin="F"/>
@@ -31816,6 +31844,10 @@ connectors on PCB</text>
 <pinref part="U26" gate="A" pin="SW+2"/>
 <pinref part="U26" gate="A" pin="SW+1"/>
 <label x="111.76" y="210.82" size="1.778" layer="95"/>
+<label x="203.2" y="342.9" size="1.778" layer="95"/>
+<label x="203.2" y="297.18" size="1.778" layer="95"/>
+<label x="203.2" y="101.6" size="1.778" layer="95"/>
+<label x="203.2" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROW6" class="0">
@@ -31823,19 +31855,19 @@ connectors on PCB</text>
 <wire x1="106.68" y1="172.72" x2="109.22" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="167.64" x2="109.22" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="167.64" x2="109.22" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="335.28" x2="205.74" y2="335.28" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="335.28" x2="205.74" y2="289.56" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="289.56" x2="213.36" y2="289.56" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="172.72" x2="205.74" y2="289.56" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="172.72" x2="109.22" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="93.98" x2="205.74" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="93.98" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="48.26" x2="213.36" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="335.28" x2="193.04" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="335.28" x2="193.04" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="289.56" x2="213.36" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="172.72" x2="193.04" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="172.72" x2="109.22" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="93.98" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="93.98" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="93.98" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="48.26" x2="213.36" y2="48.26" width="0.1524" layer="91"/>
 <junction x="109.22" y="172.72"/>
-<junction x="205.74" y="289.56"/>
-<junction x="205.74" y="172.72"/>
-<junction x="205.74" y="93.98"/>
+<junction x="193.04" y="289.56"/>
+<junction x="193.04" y="172.72"/>
+<junction x="193.04" y="93.98"/>
 <pinref part="X5" gate="-13" pin="F"/>
 <pinref part="X1" gate="-13" pin="F"/>
 <pinref part="X6" gate="-13" pin="F"/>
@@ -31843,6 +31875,10 @@ connectors on PCB</text>
 <pinref part="U23" gate="A" pin="SW+2"/>
 <pinref part="U23" gate="A" pin="SW+1"/>
 <label x="111.76" y="172.72" size="1.778" layer="95"/>
+<label x="203.2" y="335.28" size="1.778" layer="95"/>
+<label x="203.2" y="289.56" size="1.778" layer="95"/>
+<label x="203.2" y="93.98" size="1.778" layer="95"/>
+<label x="203.2" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED_VCC" class="0">
@@ -31997,22 +32033,22 @@ connectors on PCB</text>
 </net>
 <net name="ROW7" class="0">
 <segment>
-<wire x1="208.28" y1="332.74" x2="213.36" y2="332.74" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="91.44" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="45.72" x2="208.28" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="45.72" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="332.74" x2="213.36" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="91.44" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="45.72" x2="195.58" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="45.72" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="160.02" x2="109.22" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="154.94" x2="109.22" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="154.94" x2="109.22" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="160.02" x2="208.28" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="160.02" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="287.02" x2="208.28" y2="287.02" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="287.02" x2="208.28" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="287.02" x2="208.28" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="160.02" x2="195.58" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="160.02" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="287.02" x2="195.58" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="287.02" x2="195.58" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="287.02" x2="195.58" y2="332.74" width="0.1524" layer="91"/>
 <junction x="109.22" y="160.02"/>
-<junction x="208.28" y="160.02"/>
-<junction x="208.28" y="287.02"/>
-<junction x="208.28" y="91.44"/>
+<junction x="195.58" y="160.02"/>
+<junction x="195.58" y="287.02"/>
+<junction x="195.58" y="91.44"/>
 <pinref part="X1" gate="-14" pin="F"/>
 <pinref part="X6" gate="-14" pin="F"/>
 <pinref part="X7" gate="-14" pin="F"/>
@@ -32020,6 +32056,10 @@ connectors on PCB</text>
 <pinref part="U22" gate="A" pin="SW+2"/>
 <pinref part="U22" gate="A" pin="SW+1"/>
 <label x="111.76" y="160.02" size="1.778" layer="95"/>
+<label x="203.2" y="332.74" size="1.778" layer="95"/>
+<label x="203.2" y="287.02" size="1.778" layer="95"/>
+<label x="203.2" y="91.44" size="1.778" layer="95"/>
+<label x="203.2" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROW5" class="0">
@@ -32027,19 +32067,19 @@ connectors on PCB</text>
 <wire x1="106.68" y1="185.42" x2="109.22" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="180.34" x2="109.22" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="180.34" x2="109.22" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="185.42" x2="203.2" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="292.1" x2="213.36" y2="292.1" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="292.1" x2="203.2" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="337.82" x2="203.2" y2="337.82" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="337.82" x2="203.2" y2="292.1" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="96.52" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="96.52" x2="203.2" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="50.8" x2="213.36" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="185.42" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="185.42" x2="190.5" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="292.1" x2="213.36" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="292.1" x2="190.5" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="337.82" x2="190.5" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="337.82" x2="190.5" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="96.52" x2="190.5" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="96.52" x2="190.5" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="50.8" x2="213.36" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="185.42" x2="190.5" y2="96.52" width="0.1524" layer="91"/>
 <junction x="109.22" y="185.42"/>
-<junction x="203.2" y="292.1"/>
-<junction x="203.2" y="185.42"/>
-<junction x="203.2" y="96.52"/>
+<junction x="190.5" y="292.1"/>
+<junction x="190.5" y="185.42"/>
+<junction x="190.5" y="96.52"/>
 <pinref part="X5" gate="-12" pin="F"/>
 <pinref part="X1" gate="-12" pin="F"/>
 <pinref part="X6" gate="-12" pin="F"/>
@@ -32047,6 +32087,10 @@ connectors on PCB</text>
 <pinref part="U24" gate="A" pin="SW+2"/>
 <pinref part="U24" gate="A" pin="SW+1"/>
 <label x="111.76" y="185.42" size="1.778" layer="95"/>
+<label x="203.2" y="337.82" size="1.778" layer="95"/>
+<label x="203.2" y="292.1" size="1.778" layer="95"/>
+<label x="203.2" y="96.52" size="1.778" layer="95"/>
+<label x="203.2" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -32113,6 +32157,7 @@ connectors on PCB</text>
 <pinref part="X7" gate="-3" pin="F"/>
 <pinref part="U31" gate="A" pin="SW-"/>
 <label x="111.76" y="43.18" size="1.778" layer="95"/>
+<label x="203.2" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C0_30V" class="0">
@@ -32123,6 +32168,7 @@ connectors on PCB</text>
 <pinref part="X6" gate="-1" pin="F"/>
 <pinref part="U37" gate="A" pin="SW-"/>
 <label x="111.76" y="119.38" size="1.778" layer="95"/>
+<label x="203.2" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C2_30V" class="0">
@@ -32133,6 +32179,7 @@ connectors on PCB</text>
 <pinref part="X6" gate="-3" pin="F"/>
 <pinref part="U35" gate="A" pin="SW-"/>
 <label x="111.76" y="93.98" size="1.778" layer="95"/>
+<label x="203.2" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C3_30V" class="0">
@@ -32143,6 +32190,7 @@ connectors on PCB</text>
 <pinref part="X6" gate="-4" pin="F"/>
 <pinref part="U34" gate="A" pin="SW-"/>
 <label x="111.76" y="81.28" size="1.778" layer="95"/>
+<label x="203.2" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C4_30V" class="0">
@@ -32153,6 +32201,7 @@ connectors on PCB</text>
 <pinref part="X7" gate="-1" pin="F"/>
 <pinref part="U33" gate="A" pin="SW-"/>
 <label x="111.76" y="68.58" size="1.778" layer="95"/>
+<label x="203.2" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C5_30V" class="0">
@@ -32163,6 +32212,7 @@ connectors on PCB</text>
 <pinref part="X7" gate="-2" pin="F"/>
 <pinref part="U32" gate="A" pin="SW-"/>
 <label x="111.76" y="55.88" size="1.778" layer="95"/>
+<label x="203.2" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C7_30V" class="0">
@@ -32173,6 +32223,7 @@ connectors on PCB</text>
 <pinref part="X7" gate="-4" pin="F"/>
 <pinref part="U30" gate="A" pin="SW-"/>
 <label x="111.76" y="30.48" size="1.778" layer="95"/>
+<label x="203.2" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C1" class="0">
@@ -32213,6 +32264,7 @@ connectors on PCB</text>
 <pinref part="X6" gate="-2" pin="F"/>
 <pinref part="U36" gate="A" pin="SW-"/>
 <label x="111.76" y="106.68" size="1.778" layer="95"/>
+<label x="203.2" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C7" class="0">
